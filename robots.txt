@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Replace YOUR-VERCEL-DOMAIN with the actual deployed Vercel domain before launch.
-Sitemap: https://YOUR-VERCEL-DOMAIN.vercel.app/sitemap.xml
+Sitemap: https://invoiceflow-seo-site.vercel.app/sitemap.xml
