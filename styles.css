@@ -1,0 +1,38 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:#172033;background:#f7f9fc;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{background:#fff;border-bottom:1px solid #e7ebf2;position:sticky;top:0;z-index:10}
+.nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:24px;font-weight:800;color:#1d4ed8}
+.logo span{color:#111827}
+.navlinks{display:flex;gap:20px;align-items:center;font-size:14px;color:#4b5563}
+.navlinks a:hover{color:#1d4ed8}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:#1d4ed8;color:white;padding:13px 20px;border-radius:10px;font-weight:700;border:0}
+.btn:hover{background:#1e40af}
+.btn.secondary{background:white;color:#1d4ed8;border:1px solid #cbd5e1}
+.hero{padding:82px 0 65px;background:linear-gradient(180deg,#eef5ff 0%,#f7f9fc 100%)}
+.hero h1{font-size:clamp(38px,6vw,64px);line-height:1.05;max-width:850px;margin:0 0 22px;letter-spacing:-1.5px}
+.hero p{font-size:20px;color:#526071;max-width:760px;margin:0 0 30px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
+.badge{background:#fff;border:1px solid #dbe3ef;border-radius:999px;padding:8px 13px;font-size:13px;color:#4b5563}
+.section{padding:58px 0}
+.section h2{font-size:34px;margin:0 0 12px}
+.section-intro{color:#657184;max-width:760px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border:1px solid #e3e8f0;border-radius:16px;padding:24px;box-shadow:0 5px 18px rgba(31,41,55,.04)}
+.card h3{margin:0 0 8px;font-size:20px}
+.card p{color:#657184;margin:0 0 18px;font-size:15px}
+.card a{color:#1d4ed8;font-weight:700}
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.feature{padding:20px;background:#fff;border-radius:14px;border:1px solid #e3e8f0}
+.feature strong{display:block;margin-bottom:6px}
+.feature span{color:#657184;font-size:14px}
+.cta{background:#111827;color:white;border-radius:20px;padding:42px}
+.cta h2{margin:0 0 10px}
+.cta p{color:#cbd5e1;margin:0 0 22px}
+footer{padding:35px 0;color:#687386;font-size:14px;border-top:1px solid #e3e8f0;background:#fff}
+.small{font-size:13px;color:#7a8595}
+@media(max-width:800px){.grid,.feature-grid{grid-template-columns:1fr}.navlinks{display:none}.hero{padding:60px 0 45px}.section{padding:45px 0}.cta{padding:30px}}
